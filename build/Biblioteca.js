@@ -1,16 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Biblioteca = void 0;
-class Biblioteca {
-    constructor() {
+// Implementa la clase Biblioteca
+var Biblioteca = /** @class */ (function () {
+    function Biblioteca() {
         this.libros = [];
     }
-    agregarLibro(libro) {
+    Biblioteca.prototype.agregarLibro = function (libro) {
         this.libros.push(libro);
-    }
-    mostrarCatalogo() {
+        return this.libros;
+    };
+    Biblioteca.prototype.mostrarCatalogo = function () {
         console.log("Catálogo de la biblioteca:");
-        this.libros.forEach(libro => console.log(libro.obtenerResumen()));
-    }
-}
+        this.libros.forEach(function (libro) { return console.log(libro.obtenerResumen()); });
+    };
+    return Biblioteca;
+}());
 exports.Biblioteca = Biblioteca;

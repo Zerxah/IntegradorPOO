@@ -1,8 +1,5 @@
-// Define la interfaz Persona
-export interface Persona {
-  nombre: string;
-  apellido: string;
-}
+// Importa la interfaz Persona del archivo Persona.ts
+import { Persona } from "./Persona";
 
 // Implementa la clase Autor que cumple con la interfaz Persona
 export class Autor implements Persona {
@@ -10,5 +7,3 @@ export class Autor implements Persona {
 }
 
 
-  
-  

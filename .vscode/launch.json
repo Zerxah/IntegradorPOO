@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug index.ts",
+        "program": "${workspaceFolder}/index.js",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Biblioteca.ts",
+        "program": "${workspaceFolder}/Biblioteca.js",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Persona.ts",
+        "program": "${workspaceFolder}/Persona.js",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Libro.ts",
+        "program": "${workspaceFolder}/Libro.js",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug LibroImpreso.ts",
+        "program": "${workspaceFolder}/LibroImpreso.js",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Autor.ts",
+        "program": "${workspaceFolder}/Autor.js",
+        "skipFiles": ["<node_internals>/**"]
+      },
+      // Agrega configuraciones adicionales para otros archivos si es necesario
+    ]
+  }
+  
+      
